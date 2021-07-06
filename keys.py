@@ -1,4 +1,0 @@
-#------INSERT API KEY & SECRET KEY BELOW
-
-API_KEY = " - "
-SECRET_KEY = " - "
