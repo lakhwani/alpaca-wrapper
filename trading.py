@@ -1,5 +1,5 @@
 import requests, json
-from config import *
+from keys import *
 from datetime import date, timedelta
 
 BASE_URL = "https://paper-api.alpaca.markets"
