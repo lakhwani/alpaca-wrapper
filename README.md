@@ -1,7 +1,7 @@
-# Alpaca Trading Python Wrapper (`trader.py`)
+# Alpaca Trading Python Wrapper (`trading.py`)
 
 ## Overview
-`trader.py` is a Python wrapper for the Alpaca Trading API, designed for automating trading activities on the Alpaca platform. This script facilitates various trading operations including accessing account data, creating and managing orders, and handling order cancellations.
+`trading.py` is a Python wrapper for the Alpaca Trading API, designed for automating trading activities on the Alpaca platform. This script facilitates various trading operations including accessing account data, creating and managing orders, and handling order cancellations.
 
 ## Features
 - **Account Data Access**: Retrieves details like account ID, portfolio value, and buying power.
@@ -22,17 +22,17 @@
    ```
 
 ## Setup
-Insert your Alpaca API Key and Secret Key in the `trader.py` script:
+Insert your Alpaca API Key and Secret Key in the `trading.py` script:
 ```python
 API_KEY = "your_api_key_here"
 SECRET_KEY = "your_secret_key_here"
 ```
 
 ## Usage
-Import and use the functions in the `trader.py` script in your Python environment. Examples of function usage:
+Import and use the functions in the `trading.py` script in your Python environment. Examples of function usage:
 
 ```python
-from trader import getAccount, createOrder, getOrders
+from trading import getAccount, createOrder, getOrders
 
 # Access account data
 account_data = getAccount()
